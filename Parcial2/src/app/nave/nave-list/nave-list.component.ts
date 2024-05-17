@@ -44,8 +44,8 @@ export class NaveListComponent implements OnInit {
     this.navesNeutrales = neutrales;
   }
 
-  onSelect(book: Nave) {
+  onSelect(nave: Nave) {
     this.selected = true;
-    this.selectedBook = book;
+    this.selectedNave =nave;
   }
 }
